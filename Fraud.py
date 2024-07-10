@@ -8,7 +8,7 @@ from xgboost import XGBClassifier
 from sklearn.metrics import classification_report
 
 # Read the data
-data = pd.read_csv('/kaggle/input/fraudulent-transactions-prediction/Fraud.csv')
+data = pd.read_csv('filename.csv')
 
 # Display basic info
 print(data.head())
